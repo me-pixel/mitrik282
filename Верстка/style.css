@@ -1,0 +1,157 @@
+*{
+  margin: 0px;
+  padding: 0;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+header{
+  width: 100%;
+  background: #313030;
+  display: flex;
+  justify-content: center;
+}
+p{
+  font-size: 16px;
+}
+nav{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.top-nav a{
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 16px;
+}
+.top-nav a:hover{
+  border-bottom: 3px solid #ff3f40;
+}
+main{
+  width: 100%;
+}
+.color{
+  opacity: 0.5;
+  margin-bottom: 62px;
+}
+.main-intro{
+  width: 100%;
+  background: #f6f2f2;
+  padding: 108px 0 110px 0;
+
+}
+.main-intro p{
+  padding-left: 165px;
+}
+.main-intro h1{
+  padding-left: 165px;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+.main-button{
+  padding: 0 0 0 165px;
+}
+.main-button a{
+  border: 1px solid #ff2d2d;
+  border-radius: 5px;
+  background: #ff2d2d;
+  color: #fff;
+  font-size: 18px;
+  height: 30px;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 19px 58px 19px 58px;
+  text-align: center;
+}
+.main-image{
+  width: 400px;
+  position: absolute;
+  margin: -340px 400px 200px 1030px;
+}
+.main-more{
+  padding: 117px 0 110px 0;
+  padding-left: 165px;
+}
+.main-more h1{
+  opacity: 0.5;
+  font-size: 42px;
+}
+.main-more p{
+  opacity: 0.5;
+  padding-top: 50px;
+  padding-bottom: 85px;
+}
+.main-button2 a{
+  border: 1px solid #ff2d2d;
+  border-radius: 5px;
+  color: #ff2d2d;
+  font-size: 18px;
+  height: 30px;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 19px 58px 19px 58px;
+  text-align: center;
+}
+.main-right{
+  width: 40%;;
+  margin: -485px 0 0 600px;
+  padding: 0 0 100px 100px;
+  padding-left: 410px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 105px;
+}
+.main-text{
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.main-text h1,p{
+  opacity: 0.5;
+}
+.line{
+  margin: 0 0 105px 0;
+  border-bottom: 3px solid #ececec;
+}
+.main-features{
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.main-features h1{
+  font-size: 42px;
+}
+.line2{
+  border-bottom: 3px solid #ff3b3b;
+  padding: 33px 0 0 0;
+  margin: 0 800px 85px 800px;
+}
+.main-gallerytype{
+  text-align: center;
+  padding-bottom: 65px;
+}
+.main-gallerytype a{
+  font-size: 22px;
+  padding: 0 0 0 50px;
+  color: black;
+  font-weight: bolder;
+}
+.main-gallerytype a:hover{
+  color: #ff2d2d;
+}
+.gallery{
+  width: 70%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+.photo-background{
+  padding: 20px 0 0 20px;
+}
